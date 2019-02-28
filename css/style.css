@@ -1,5 +1,12 @@
 .jumbotron { 
-    background:url(img/main.jpg) center no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-    
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100% !important;
+    z-index: 99;
+}
